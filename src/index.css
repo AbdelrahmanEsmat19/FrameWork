@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&family=Merienda:wght@300..900&display=swap');
+
+body{
+  font-family: "Merienda", cursive;
+  font-optical-sizing: auto;
+
+}
+:root {
+  --text--main: rgb(44, 62, 80);
+  --bg-main: #1abc9c;
+
+}
+.bg-main {
+  background-color: var(--bg-main);
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+}
+.bg-line {
+  background-color: var(--text--main);
+}
+.text-main {
+  color: var(--text--main);
+}
+
+.active {
+  padding: 10px;
+  border-radius: 10%;
+  background-color: var(--bg-main);
+}
+.item {
+  background-image: url(../src/assets/images/port1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-light-box {
+  background-color: rgba(13, 110, 253, 0.25);
+}
